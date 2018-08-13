@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-class Header extends React.Component{
+class Home extends React.Component{
     render(){
         return (
         <div>
-            <div>谢利思</div>
+            我是首页
         </div>
     );
     }
 }
-export default Header;
+export default Home;

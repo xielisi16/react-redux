@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './head.jsx';
-import Img from "../../public/img/demo.png"
-
-import './App.scss';
+import Header from './page/comm/head';
+import Router from './router';
 
 class App extends React.Component{
     render(){
         return (
         <div>
             <Header />
-            <div className='main'>hello world</div>
-            <img src={Img} alt="" />
+            <Router />
         </div>
     );
     }
